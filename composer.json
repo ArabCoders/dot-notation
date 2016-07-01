@@ -1,0 +1,29 @@
+{
+    "name": "arabcoders/dot-notation",
+    "type": "library",
+    "description": "Array Dot Notation",
+    "keywords": [
+        "array",
+        "dot notation"
+    ],
+    "homepage": "https://www.abdulmohsen.me",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "AbdulMohsen B. A. A.",
+            "email": "admin@arabcoders.org"
+        },
+        {
+            "name": "Anton Medvedev",
+            "email": "anton@elfet.ru"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "arabcoders\\DotNotation\\": "src/"
+        }
+    }
+}
